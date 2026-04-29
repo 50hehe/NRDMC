@@ -28,7 +28,7 @@ Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/driv
 | EVEN      | 2025 | AAAI        | None                                           |
 | NEGCL     | 2025 | KBS         | [code](https://github.com/HubuKG/NEGCL)        |
 | MENTOR    | 2025 | AAAI        | [code](https://github.com/Jinfeng-Xu/MENTOR)   |
-| MIG-GT    | 2025 | AAAI        | [code](https://github.com/Jinfeng-Xu/MENTOR)   |
+| MIG-GT    | 2025 | AAAI        | [code](https://github.com/CrawlScript/MIG-GT)  |
 | COHESION  | 2025 | SIGIR       | [code](https://github.com/Jinfeng-Xu/COHESION) |
 | FastMMRec | 2025 | ACM MM      | None                                           |
 | HPMRec    | 2025 | CIKM        | [code](https://github.com/Zheyu-Chen/HPMRec)   |
@@ -37,7 +37,7 @@ Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/driv
 ## ⚙️ training
   ```
   cd preprocessing 
-  python build_co_item_user.py
+  python build_co_item_user.py -d *
   cd ../src
   python main.py
   ```
